@@ -1,0 +1,27 @@
+[
+    {
+        "dbo": "dbo",
+        "table": "DimUser",
+        "cdc_col": "updated_at"
+    },
+    {
+        "dbo": "dbo",
+        "table": "DimArtist",
+        "cdc_col": "updated_at"
+    },
+    {
+        "dbo": "dbo",
+        "table": "DimTrack",
+        "cdc_col": "updated_at"
+    },
+    {
+        "dbo": "dbo",
+        "table": "DimDate",
+        "cdc_col": "date"
+    },
+    {
+        "dbo": "dbo",
+        "table": "FactStream",
+        "cdc_col": "stream_timestamp"
+    }
+]
